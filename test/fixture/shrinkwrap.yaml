@@ -1,0 +1,6 @@
+dependencies:
+  is-negative@*: 2.1.0
+packages:
+  /is-negative/2.1.0: f0d86377aa15a64c34961f38ac2a9be2b40a1187
+registry: 'https://registry.npmjs.org/'
+version: 2

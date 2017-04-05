@@ -1,0 +1,36 @@
+{
+  "name": "remove-all-except-outer-links",
+  "version": "1.0.0",
+  "description": "Removes everything from a folder except external symlinks",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnpm/remove-all-except-outer-links.git"
+  },
+  "keywords": [
+    "rimraf"
+  ],
+  "author": "Zoltan Kochan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnpm/remove-all-except-outer-links/issues"
+  },
+  "homepage": "https://github.com/pnpm/remove-all-except-outer-links#readme",
+  "dependencies": {
+    "get-link-target": "^1.0.0",
+    "mz": "^2.6.0",
+    "p-filter": "^1.0.0",
+    "rimraf-then": "^1.0.1"
+  },
+  "devDependencies": {
+    "path-exists": "^3.0.0",
+    "pnpm": "^0.63.0",
+    "tape": "^4.6.3"
+  }
+}
