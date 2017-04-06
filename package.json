@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "path-exists": "^3.0.0",
-    "pnpm": "^0.63.0",
+    "pnpm": "^0.64.1",
     "tape": "^4.6.3"
   }
 }
