@@ -3,7 +3,7 @@ dependencies:
   mz@^2.6.0: 2.6.0
   p-filter@^1.0.0: 1.0.0
   path-exists@^3.0.0: 3.0.0
-  pnpm@^0.63.0: 0.63.0
+  pnpm@^0.64.2: 0.64.2
   rimraf-then@^1.0.1: 1.0.1
   tape@^4.6.3: 4.6.3
 packages:
@@ -99,7 +99,7 @@ packages:
   /p-map/1.1.1: 05f5e4ae97a068371bc2a5cc86bfbdbc19c4ae7a
   /path-exists/3.0.0: ce0ebeaa5f78cb18925ea7d810d7b59b010fd515
   /path-is-absolute/1.0.1: 174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f
-  /pnpm/0.63.0: 34c6508b1ef8c32fb5df4a1a564e38a3f6cc9bec
+  /pnpm/0.64.2: c3ef37f8468135dd8c654fc6559fd2fab7e3c13a
   /resolve/1.1.7: 203114d82ad2c5ed9e8e0411b3932875e889e97b
   /resumer/0.0.0:
     dependencies:
