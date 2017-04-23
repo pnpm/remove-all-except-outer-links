@@ -7,7 +7,16 @@
     "index.js"
   ],
   "scripts": {
-    "test": "tape test"
+    "test": "tape test && mos test",
+    "md": "mos"
+  },
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
   },
   "repository": {
     "type": "git",
@@ -16,7 +25,10 @@
   "keywords": [
     "rimraf"
   ],
-  "author": "Zoltan Kochan",
+  "author": {
+    "name": "Zoltan Kochan",
+    "url": "https://www.kochan.io"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pnpm/remove-all-except-outer-links/issues"
@@ -30,6 +42,8 @@
     "rimraf-then": "^1.0.1"
   },
   "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
     "path-exists": "^3.0.0",
     "pnpm": "^0.65.1",
     "tape": "^4.6.3"
