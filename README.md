@@ -1,5 +1,7 @@
 # remove-all-except-outer-links
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pnpm/remove-all-except-outer-links.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/pnpm/remove-all-except-outer-links.svg?branch=master)](https://travis-ci.org/pnpm/remove-all-except-outer-links)
 
 > Removes everything from a folder except external symlinks
