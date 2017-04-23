@@ -1,5 +1,6 @@
 dependencies:
   get-link-target@^1.0.0: 1.0.0
+  is-subdir@^1.0.0: 1.0.0
   mz@^2.6.0: 2.6.0
   p-filter@^1.0.0: 1.0.0
   path-exists@^3.0.0: 3.0.0
@@ -73,7 +74,12 @@ packages:
     dependencies:
       has: 1.0.1
     resolution: 5517489b547091b0930e095654ced25ee97e9491
+  /is-subdir/1.0.0:
+    dependencies:
+      is-windows: 1.0.0
+    resolution: 73b63b91fb4019d287674d9129517b66c97b33f5
   /is-symbol/1.0.1: 3cc59f00025194b6ab2e38dbae6689256b660572
+  /is-windows/1.0.0: c61d61020c3ebe99261b781bd3d1622395f547f8
   /minimatch/3.0.3:
     dependencies:
       brace-expansion: 1.1.7
