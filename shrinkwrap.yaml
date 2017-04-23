@@ -3,17 +3,17 @@ dependencies:
   mz@^2.6.0: 2.6.0
   p-filter@^1.0.0: 1.0.0
   path-exists@^3.0.0: 3.0.0
-  pnpm@^0.64.2: 0.64.2
+  pnpm@^0.65.1: 0.65.2
   rimraf-then@^1.0.1: 1.0.1
   tape@^4.6.3: 4.6.3
 packages:
   /any-promise/1.3.0: abc6afeedcea52e809cdc0376aed3ce39635d17f
   /balanced-match/0.4.2: cb3f3e3c732dc0f01ee70b403f302e61d7709838
-  /brace-expansion/1.1.6:
+  /brace-expansion/1.1.7:
     dependencies:
       balanced-match: 0.4.2
       concat-map: 0.0.1
-    resolution: 7197d7eaa9b87e648390ea61fc66c84427420df9
+    resolution: 3effc3c50e000531fb720eaff80f0ae8ef23cf59
   /concat-map/0.0.1: d8a96bd77fd68df7793a73036a3ba0d5405d477b
   /deep-equal/1.0.1: f5d260292b660e084eff4cdbc9f08ad3247448b5
   /define-properties/1.1.2:
@@ -76,7 +76,7 @@ packages:
   /is-symbol/1.0.1: 3cc59f00025194b6ab2e38dbae6689256b660572
   /minimatch/3.0.3:
     dependencies:
-      brace-expansion: 1.1.6
+      brace-expansion: 1.1.7
     resolution: 2a4e4090b96b2db06a9d7df01055a62a77c9b774
   /minimist/1.2.0: a35008b20f41383eec1fb914f4cd5df79a264284
   /mz/2.6.0:
@@ -99,7 +99,7 @@ packages:
   /p-map/1.1.1: 05f5e4ae97a068371bc2a5cc86bfbdbc19c4ae7a
   /path-exists/3.0.0: ce0ebeaa5f78cb18925ea7d810d7b59b010fd515
   /path-is-absolute/1.0.1: 174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f
-  /pnpm/0.64.2: c3ef37f8468135dd8c654fc6559fd2fab7e3c13a
+  /pnpm/0.65.2: 671082e70a343e2ff66aa77ac8902d8680e04fac
   /resolve/1.1.7: 203114d82ad2c5ed9e8e0411b3932875e889e97b
   /resumer/0.0.0:
     dependencies:
