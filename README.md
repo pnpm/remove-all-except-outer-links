@@ -6,8 +6,6 @@
 [![npm version](https://img.shields.io/npm/v/remove-all-except-outer-links.svg)](https://www.npmjs.com/package/remove-all-except-outer-links) [![Build Status](https://img.shields.io/travis/pnpm/remove-all-except-outer-links/master.svg)](https://travis-ci.org/pnpm/remove-all-except-outer-links)
 <!--/@-->
 
-> Removes everything from a folder except external symlinks
-
 ## Installation
 
 ```sh
