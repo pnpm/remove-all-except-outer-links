@@ -15,7 +15,7 @@ test('remove all from a node_modules external symlinks', t => {
     .then(() => pnpm.install({prefix: fixtureDir}))
     .then(() => removeAllExceptOuterLinks(modules))
     .then(() => {
-      t.ok(!exists.sync(path.join(modules, 'is-negative')))
+      t.ok(exists.sync(path.join(modules, 'is-negative')))
       t.ok(!exists.sync(path.join(modules, '@types')))
       t.ok(!exists.sync(path.join(modules, '.modules.yaml')))
       t.ok(!exists.sync(path.join(modules, '.shrinkwrap.yaml')))
