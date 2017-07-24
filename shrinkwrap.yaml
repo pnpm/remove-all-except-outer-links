@@ -1,5 +1,4 @@
 dependencies:
-  get-link-target: 1.0.0
   is-subdir: 1.0.0
   mz: 2.6.0
   p-filter: 1.0.0
@@ -959,6 +958,7 @@ packages:
   /get-link-target/1.0.0:
     dependencies:
       graceful-fs: 4.1.11
+    dev: true
     resolution:
       integrity: sha1-f+8E9VGPDtoIi42HYI+e9pB/a/w=
   /get-npm-tarball-url/2.0.0:
@@ -1037,6 +1037,7 @@ packages:
     resolution:
       integrity: sha1-X4FjWmHkplifGAVp6k44FoClHzU=
   /graceful-fs/4.1.11:
+    dev: true
     resolution:
       integrity: sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
   /gunzip-maybe/1.4.1:
@@ -3084,7 +3085,6 @@ packages:
 registry: 'https://registry.npmjs.org/'
 shrinkwrapVersion: 3
 specifiers:
-  get-link-target: ^1.0.0
   is-subdir: ^1.0.0
   mos: ^2.0.0-alpha.3
   mos-plugin-readme: ^1.0.4

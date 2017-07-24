@@ -35,7 +35,6 @@
   },
   "homepage": "https://github.com/pnpm/remove-all-except-outer-links#readme",
   "dependencies": {
-    "get-link-target": "^1.0.0",
     "is-subdir": "^1.0.0",
     "mz": "^2.6.0",
     "p-filter": "^1.0.0",

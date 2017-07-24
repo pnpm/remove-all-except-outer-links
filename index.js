@@ -3,7 +3,6 @@ const fs = require('mz/fs')
 const path = require('path')
 const pFilter = require('p-filter')
 const rimraf = require('rimraf-then')
-const getLinkTarget = require('get-link-target')
 const isSubdir = require('is-subdir')
 
 module.exports = function (modulesDir) {
@@ -23,7 +22,7 @@ module.exports = function (modulesDir) {
               .then(stats => {
                 if (!stats.isSymbolicLink()) return true
 
-                return getLinkTarget(absolutePath)
+                return fs.realpath(absolutePath)
                   .then(targetPath => isSubdir(modulesDir, targetPath))
               })
           }
