@@ -1,6 +1,6 @@
 {
   "name": "remove-all-except-outer-links",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Removes everything from a folder except external symlinks",
   "main": "index.js",
   "files": [
