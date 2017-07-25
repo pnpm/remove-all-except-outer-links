@@ -3,6 +3,7 @@ dependencies:
   mz: 2.6.0
   p-filter: 1.0.0
   path-exists: 3.0.0
+  resolve-link-target: 1.0.0
   rimraf-then: 1.0.1
 devDependencies:
   mos: 2.0.0-alpha.3
@@ -1037,7 +1038,6 @@ packages:
     resolution:
       integrity: sha1-X4FjWmHkplifGAVp6k44FoClHzU=
   /graceful-fs/4.1.11:
-    dev: true
     resolution:
       integrity: sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
   /gunzip-maybe/1.4.1:
@@ -2409,6 +2409,11 @@ packages:
     dev: true
     resolution:
       integrity: sha1-lICrIOlP+h2egKgEx+oUdhGWa1c=
+  /resolve-link-target/1.0.0:
+    dependencies:
+      graceful-fs: 4.1.11
+    resolution:
+      integrity: sha512-vCHlxVruR67GgAeTSxpMPMmJ+7oO9oGCPA5r0NEyqOcZP+lTwyMcaxhqMHs+b90tT+NTVKBaYjsc5cEgecULIw==
   /resolve/1.1.7:
     dev: true
     resolution:
@@ -3092,6 +3097,7 @@ specifiers:
   p-filter: ^1.0.0
   path-exists: ^3.0.0
   pnpm-logger: ^0.5.0
+  resolve-link-target: ^1.0.0
   rimraf-then: ^1.0.1
   supi: ^0.2.0
   tape: ^4.6.3
