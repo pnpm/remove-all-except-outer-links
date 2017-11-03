@@ -46,7 +46,7 @@
     "mos-plugin-readme": "^1.0.4",
     "path-exists": "^3.0.0",
     "pnpm-logger": "^0.6.0",
-    "supi": "^0.5.0",
+    "supi": "^0.6.0",
     "tape": "^4.6.3"
   }
 }
