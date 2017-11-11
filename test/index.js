@@ -1,6 +1,6 @@
 'use strict'
 const test = require('tape')
-const removeAllExceptOuterLinks = require('..')
+const removeAllExceptOuterLinks = require('remove-all-except-outer-links')
 const supi = require('supi')
 const path = require('path')
 const exists = require('path-exists')

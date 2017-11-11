@@ -7,7 +7,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "tape test && mos test",
+    "test": "preview && tape test && mos test",
     "md": "mos"
   },
   "mos": {
@@ -49,6 +49,7 @@
     "@pnpm/logger": "^1.0.0",
     "mos": "^2.0.0-alpha.3",
     "mos-plugin-readme": "^1.0.4",
+    "package-preview": "^1.0.0",
     "path-exists": "^3.0.0",
     "supi": "^0.7.1",
     "tape": "^4.6.3"
