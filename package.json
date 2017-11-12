@@ -42,7 +42,7 @@
     "is-subdir": "^1.0.0",
     "mz": "^2.6.0",
     "p-filter": "^1.0.0",
-    "resolve-link-target": "^1.0.0",
+    "resolve-link-target": "^1.0.1",
     "rimraf-then": "^1.0.1"
   },
   "devDependencies": {
