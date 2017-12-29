@@ -51,7 +51,7 @@
     "mos-plugin-readme": "^1.0.4",
     "package-preview": "^1.0.0",
     "path-exists": "^3.0.0",
-    "supi": "^0.7.1",
+    "supi": "^0.8.0",
     "tape": "^4.6.3"
   }
 }
