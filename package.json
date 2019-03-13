@@ -46,12 +46,11 @@
     "rimraf-then": "^1.0.1"
   },
   "devDependencies": {
-    "@pnpm/logger": "^1.0.0",
+    "@pnpm/exec": "^1.1.5",
     "mos": "^2.0.0-alpha.3",
     "mos-plugin-readme": "^1.0.4",
     "package-preview": "^2.0.0",
     "path-exists": "^3.0.0",
-    "supi": "^0.8.0",
     "tape": "^4.6.3"
   }
 }
