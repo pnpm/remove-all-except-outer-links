@@ -2,7 +2,8 @@
 const fs = require('mz/fs')
 const path = require('path')
 const pFilter = require('p-filter')
-const rimraf = require('rimraf-then')
+const { promisify } = require('util')
+const rimraf = promisify(require('rimraf'))
 const resolveLinkTarget = require('resolve-link-target')
 const isSubdir = require('is-subdir')
 
@@ -27,5 +28,5 @@ module.exports = async function (modulesDir) {
       return isSubdir(modulesDir, targetPath)
     }
   )
-  return Promise.all(innerResources.map(rimraf))
+  return Promise.all(innerResources.map((innerResource) => rimraf(innerResource)))
 }
